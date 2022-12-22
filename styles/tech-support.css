@@ -1,0 +1,43 @@
+.main__tech-support {}
+.tech-support {}
+.tech-support__container {
+  padding-bottom: 113px;
+  background: url('../assets/images/tech-support/background1.png') 0 -200px/calc(100% + 100px) auto no-repeat;
+}
+.tech-support__title {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 119px;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 16px;
+  max-width: 1044px;
+}
+.tech-support__description {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 48px;
+}
+.tech-support__button button {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFFFFF;
+  padding: 16px 24px;
+  background: #9300FC;
+  border-radius: 12px;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.tech-support__button button:hover {
+  background: #9300fcc3;
+  color: rgb(175, 175, 175);
+}

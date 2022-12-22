@@ -1,5 +1,6 @@
 .header {
-  padding-top: 65.68px;
+  padding-top: 73px;
+  margin-bottom: 129px;
 }
 .header__container {
   display: flex;
@@ -182,5 +183,9 @@
 @media (max-width: 570px) {
   .header__button {
     display: none;
+  }
+  .header {
+    padding-top: 32px;
+    margin-bottom: 96.22px;
   }
 }
