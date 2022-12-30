@@ -1,10 +1,14 @@
-.main__tech-support {}
-.tech-support {}
-.tech-support__container {
-  padding-bottom: 113px;
-  background: url('../assets/images/tech-support/background1.png') 0 -200px/calc(100% + 100px) auto no-repeat;
+.mainTech-support {
+  margin-bottom: 31px;
 }
-.tech-support__title {
+.tech-support {
+  padding-top: 120px;
+  background: url('../assets/images/tech-support/background1.png') 0 -5.8vw/100vw auto no-repeat;
+}
+.tech-supportContainer {
+  padding-bottom: 113px;
+}
+.tech-supportTitle {
   font-family: 'Gilroy';
   font-style: normal;
   font-weight: 700;
@@ -14,7 +18,7 @@
   margin-bottom: 16px;
   max-width: 1044px;
 }
-.tech-support__description {
+.tech-supportDescription {
   font-family: 'Gilroy';
   font-style: normal;
   font-weight: 400;
@@ -22,8 +26,9 @@
   line-height: 29px;
   color: rgba(255, 255, 255, 0.7);
   margin-bottom: 48px;
+  max-width: 500px;
 }
-.tech-support__button button {
+.tech-supportButton button {
   font-family: 'Gilroy';
   font-style: normal;
   font-weight: 600;
@@ -37,7 +42,65 @@
   cursor: pointer;
 }
 
-.tech-support__button button:hover {
+.tech-supportButton button:hover {
   background: #9300fcc3;
   color: rgb(175, 175, 175);
+}
+@media (min-width: 1440px) {
+  .tech-support {
+    background: url('../assets/images/tech-support/background1.png') 50% no-repeat;
+  }
+}
+
+@media (max-width: 1024px) {
+  .tech-supportTitle h1 {
+    font-size: 64px;
+    line-height: 79px;
+    max-width: 622px;
+  }
+  .tech-supportDescription {
+    max-width: 473px;
+  }
+  .tech-support {
+    background: url('../assets/images/tech-support/background1.png') 35vw -7.67vw/100vw auto no-repeat;
+  }
+}
+
+@media (max-width: 744px) {
+  .tech-supportDescription {
+    width: 340px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .tech-supportTitle h1 {
+    font-size: 56px;
+    line-height: 69px;
+  }
+  .tech-support {
+    background: url('../assets/images/tech-support/background1.png') 29.2vw -13.67vw/140vw auto no-repeat;
+  }
+}
+@media (max-width: 570px) {
+  .mainTech-support {
+    padding: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .tech-supportTitle h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .tech-supportDescription {
+    width: 281px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .tech-support {
+    background: url('../assets/images/tech-support/background1.png') 25.2vw -34.2vw/140vw auto no-repeat;
+  }
+  .tech-supportContainer {
+    padding-bottom: 64px;
+  }
 }

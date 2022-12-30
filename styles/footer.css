@@ -1,0 +1,120 @@
+.footer {
+    position: relative;
+    padding: 64px 0;
+}
+.footer::after {
+    content: url('../assets/images/footer/light.png');
+    position: absolute;
+    bottom: -382px;
+    left: -15%;
+}
+.footerContainer {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footerCopyright >* {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footerCopyrightLogo img {
+    height: 45.64;
+}
+.footerCopyrightLogo {
+    margin-bottom: 8px;
+}
+.footerCopyrightYear {
+    
+}
+.footerCopyrightSafe {
+    margin-bottom: 104px;
+}
+.footerCopyrightPrivate {}
+.footerContacts {}
+.footerContactsNumber {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+    text-align: end;
+    margin-bottom: 24px;
+}
+.footerContactsEmail {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+    text-align: end;
+    margin-bottom: 37px;
+}
+.footerContactsSocials {}
+.footerSocials {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.footerSocial:not(:last-child) {
+    margin-right: 16px;
+}
+.footerSocial {
+    display: flex;
+}
+
+@media (max-width: 1128px) {
+    .footer::after {
+        content: url('../assets/images/footer/light.png');
+        position: absolute;
+        bottom: -382px;
+        left: -55%;
+    }
+}
+@media (max-width: 744px) {
+    .footer::after {
+        content: url('../assets/images/footer/light.png');
+        position: absolute;
+        bottom: -352px;
+        left: -55%;
+    }
+    .footerContainer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footerContactsNumber {
+        text-align: start;
+    }
+    .footerContactsEmail {
+        text-align: start;
+    }
+    .footerSocials {
+        justify-content: flex-start;
+    }
+}
+@media (max-width: 530px) {
+    .footerCopyrightSafe {
+        margin-bottom: 64px;
+    }
+    .footerCopyrightLogo img {
+        height: 25px;
+    }
+    .footerContactsNumber, .footerContactsEmail {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+    }
+    .footerSocial img {
+        width: 32px;
+    }
+}

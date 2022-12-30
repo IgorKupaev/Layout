@@ -3,12 +3,14 @@
 	margin: 0;
 	border: 0;
 	box-sizing: border-box;
+	pointer-events: none;
 }
 * {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
 	border: 0;
+	user-select: none;
 }
 a {
 	text-decoration: none;
@@ -21,6 +23,7 @@ ul, ol, li {
 }
 img {
 	vertical-align: top;
+	pointer-events: none;
 }
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
@@ -28,7 +31,16 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: inherit;
 	font-size: inherit;
 }
-html, body, main{
+textarea::placeholder, input::placeholder {
+	font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.5);
+	vertical-align: text-top;
+}
+html, body, main {
 	margin: 0;
 	padding: 0;
 	height: 100%;
@@ -47,24 +59,24 @@ html, body, main{
 .main {
 	flex: 1 1 auto;
 }
-[class*="__container"] {
+[class*="Container"] {
 	max-width: 1248px;
 	margin: 0px auto;
 	padding: 0 15px;
 	box-sizing: content-box;
 }
 @media (max-width: 1024px) {
-	[class*="__container"] {
+	[class*="Container"] {
 		max-width: 944px;
 	}
 }
 @media (max-width: 744px) {
-	[class*="__container"] {
+	[class*="Container"] {
 		max-width: 664px;
 	}
 }
 @media (max-width: 375px) {
-	[class*="__container"] {
+	[class*="Container"] {
 		max-width: 343px;
 	}
 }

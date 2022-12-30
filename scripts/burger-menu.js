@@ -12,4 +12,3 @@ function closeMenu() {
 
 menuOpen.addEventListener('click', openMenu);
 menuClose.addEventListener('click', closeMenu);
-

@@ -1,0 +1,300 @@
+.mainOrder-free {} 
+.order-free {
+    margin-bottom: 144px;
+}
+.order-freeContainer {
+    display: flex;
+}
+.order-freeContainer >* {
+    flex: 0 1 50%;
+}
+.order-freeBody {
+    margin-right: 22px;
+}
+.order-freeDescription {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 32px;
+}
+.order-freeDescriptionTitle {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.order-freeDescriptionTitle span {
+    color: #9300FC;
+    background: #2F1244;
+    border-radius: 16px;
+    padding: 8px 12px;
+}
+.order-freeDescriptionBody {}
+.order-freeSocials {}
+.order-socials {}
+.order-socialsItem {
+    display: flex;
+    align-items: center;
+}
+.order-socialsItem:first-child {
+    margin-bottom: 32px;
+}
+.order-socialsItem span {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    color: #9300FC;
+    margin-left: 32px;
+    position: relative;
+}
+.order-socialsItem span::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    width: 100%;
+    background: #9300FC;
+}
+.order-freeMenu {}
+.order-freeMenuForm {
+    margin-bottom: 20px;
+}
+.order-form {
+    display: flex;
+}
+.order-freeMenuForm >*:not(:last-child) {
+    margin-bottom: 16px;
+}
+.order-form1 >* {
+    background: #4A4A4A;
+    border-radius: 8px;
+    padding: 16px 24px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 1);
+}
+.order-form1Name {
+    flex: 0 1 50%;
+    margin-right: 16px;
+}
+.order-form1Number {
+    flex: 0 1 50%;
+}
+.order-form2 >* {
+    background: #4A4A4A;
+    border-radius: 8px;
+    padding: 16px 24px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 1);
+    flex: 1 1 100%;
+}
+.order-form2Email {}
+.order-form3 >* {
+    background: #4A4A4A;
+    border-radius: 8px;
+    padding: 16px 24px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 1);
+    flex: 1 1 100%;
+}
+.order-form3About {
+    min-height: 152px;
+}
+.order-freeMenuTags {
+    margin-bottom: 40px;
+}
+.menuTagsItems {
+    display: flex;
+    flex-wrap: wrap;
+}
+.menuTagsTitle {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF; 
+}
+.menuTagsItem {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin: 16px 13px 16px 0;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+.menuTagsItem:hover {
+    color:rgba(255, 255, 255, 0.8);
+    border-color:rgba(255, 255, 255, 0.8);
+}
+.order-freeMenuAttach:hover .attachText {
+    color: rgba(255, 255, 255, 0.8)
+}
+.attach {
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 41.5px;
+}
+.attachPicture {
+    margin-right: 19px;
+}
+.attachText {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    transition: all .2s ease;
+}
+.order-freeMenuButton {}
+.order-button button {
+    padding: 16px 24px;
+    background: #9300FC;
+    border-radius: 12px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    width: 100%;
+    transition: all .2s ease;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+.order-button button:hover {
+    background-color: #8400e2;
+}
+.order-buttonButton {}
+.order-buttonText {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.order-buttonText a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.order-socialsBottom {
+    display: none;
+}
+
+@media (max-width: 1128px) {
+    .order-free {
+        margin-bottom: 120px;
+    }
+    .order-freeContainer {
+        flex-direction: column;
+    }
+    .order-socials {
+        display: none;
+    }
+    .order-freeDescriptionBody {
+        max-width: 746px;
+    }
+    .order-freeDescriptionTitle {
+        max-width: 905px;
+        margin-bottom: 32px;
+    }
+    .order-freeMenu {
+        max-width: 612px
+    }
+    .order-socialsBottom {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 144px;
+    }
+    .order-socialsBottom .order-socialsItem:first-child {
+        margin-bottom: 0;
+        margin-right: 48px;
+    }
+    .order-socialsBottom span {
+        margin-left: 16px
+    }
+    .order-freeContainer {
+        position: relative;
+    }
+    .order-freeContainer::after {
+        content: url('../assets/images/order-free/light.svg');
+        position: absolute;
+        bottom: -540px;
+        left: 130px;
+        z-index: 1;
+    }
+    .order-buttonText {
+        position: relative;
+        z-index: 10;
+    }
+    .menuTagsItem {
+        position: relative;
+        z-index: 10;
+    }
+}
+@media (max-width: 744px) {
+    .order-free {
+        margin-bottom: 96px;
+    }
+    .order-freeDescriptionTitle {
+        font-size: 40px;
+        line-height: 49px;
+    }
+    .order-freeDescriptionBody {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    .order-socialsItem span {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .order-freeMenu {
+        max-width: none; 
+    }
+    .order-freeContainer::after {
+        display: none;
+    }
+}
+@media (max-width: 530px) {
+    .mainOrder-free {
+        display: none;
+    }
+}
