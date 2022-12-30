@@ -10,47 +10,264 @@
 <body>
   <div class="wrapper">
     <header class="header">
-      <div class="header__container">
-        <div class="header__logo header-logo">
+      <div class="headerContainer">
+        <div class="headerLogo header-logo">
           <img src="assets/images/header/logo.svg" alt="">  
         </div>
-        <nav id="nav-list" class="header__nav header-nav">
-          <ul class="header-nav__list">
-            <li class="header-nav__item"><a href="">Кейсы</a></li>
-            <li class="header-nav__item"><a href="">Услуги</a></li>
-            <li class="header-nav__item"><a href="">О компании</a></li>
-            <li class="header-nav__item"><a href="">Контакты</a></li>
-            <li class="header-nav__item"><a href="">Блог</a></li>
+        <nav id="nav-list" class="headerNav header-nav">
+          <ul class="header-navList">
+            <li class="header-navItem"><a href="">Кейсы</a></li>
+            <li class="header-navItem"><a href="">Услуги</a></li>
+            <li class="header-navItem"><a href="">О компании</a></li>
+            <li class="header-navItem"><a href="">Контакты</a></li>
+            <li class="header-navItem"><a href="">Блог</a></li>
           </ul>
-          <div id="menu-close" class="header-nav__menu">
+          <div id="menu-close" class="header-navMenu">
             <img src="assets/images/header/menu-close.svg" alt="close">
           </div>
         </nav>
-        <div class="header__button">
+        <div class="headerButton">
           <button>Связаться</button>
         </div>
-        <div id="menu-open" class="header__menu">
+        <div id="menu-open" class="headerMenu">
           <img src="assets/images/header/menu.svg" alt="menu">
         </div>
       </div>
     </header>
     <main class="main">
-      <section class="main__tech-support tech-support">
-        <div class="tech-support__container">
-          <div class="tech-support__title">
+      <section class="mainTech-support tech-support">
+        <div class="tech-supportContainer">
+          <div class="tech-supportTitle">
             <h1>Техническая поддержка бизнеса</h1>
           </div>
-          <div class="tech-support__description">
+          <div class="tech-supportDescription">
             Осуществляем техническую поддержку и обслуживание ваших IT-продуктов 24/7
           </div>
-          <div class="tech-support__button">
+          <div class="tech-supportButton">
             <button>Получить консультацию</button>
+          </div>
+        </div>
+      </section>
+      <section class="mainTech-services tech-services">
+        <div class="tech-servicesContainer">
+          <div class="tech-servicesShort-container">
+            <div class="tech-servicesTitle">
+              <h1>Услуги технической поддержки</h1>
+            </div>
+            <div class="tech-servicesContent">
+              <div class="tech-servicesSupport">
+                <span>Поддержка</span>
+              </div>
+              <ul class="tech-servicesList">
+                <li class="tech-servicesItem">Устроняем простои в работе ПО</li>
+                <li class="tech-servicesItem">Помощь по восстановлению работоспособности продукта</li>
+                <li class="tech-servicesItem">Оперативная реакция на неполадки</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mainFree-advice free-advice">
+        <div class="free-adviceContainer">
+          <div class="free-adviceShort-container">
+            <div class="free-adviceTitle-block">
+              <div class="free-adviceTitle">
+                <h1>Получите бесплатную консультацию от нашего специалиста</h1>
+              </div>
+              <div class="free-adviceButton">
+                <button>Получить консультацию</button>
+              </div>
+              <div class="free-adviceBackground">
+                <img src="assets/images/free-advice/background.png" alt="neon">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mainAnother-services another-services">
+        <div class="another-servicesContainer">
+          <div class="another-servicesTitle">
+            <h1>Другие услуги</h1>
+          </div>
+          <div class="another-servicesItems">
+            <div class="another-servicesColumn">
+              <div class="another-servicesItem another-item">
+                <h2 class="another-itemTitle">
+                  Веб-разработка
+                </h2>
+                <div class="another-itemDescription">
+                  Разрабатываем сайты, интернет магазины, CRM и цифровые платформы.
+                </div>
+                <div class="another-itemButton">
+                  <button>Подробнее</button>
+                </div>
+              </div>
+            </div>
+            <div class="another-servicesColumn">
+              <div class="another-servicesItem another-item">
+                <h2 class="another-itemTitle">
+                  Мобильная разработка
+                </h2>
+                <div class="another-itemDescription">
+                  Разрабатываем кастомные мобильные приложения для Android и IOS
+                </div>
+                <div class="another-itemButton">
+                  <button>Подробнее</button>
+                </div>
+              </div>
+            </div>
+            <div class="another-servicesColumn">
+              <div class="another-servicesItem another-item">
+                <h2 class="another-itemTitle">
+                  No-code решения
+                </h2>
+                <div class="another-itemDescription">
+                  Разработка сайтов, интернет магазинов и лендингов на конструкторе Tilda
+                </div>
+                <div class="another-itemButton">
+                  <button>Подробнее</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mainOrder-free order-free">
+        <div class="order-freeContainer">
+          <div class="order-freeBody">
+            <div class="order-freeDescription">
+              <h1 class="order-freeDescriptionTitle">
+                Закажите <span>бесплатную</span> консультацию и расчёт стоимости проекта
+              </h1>
+              <div class="order-freeDescriptionBody">
+                Заполните форму или свяжитесь с нашим специалистом удобным для вас способом. Мы подберем для вас комфортное время консультации и составим расчет стоимости проекта.
+              </div>
+            </div>
+            <div class="order-freeSocials order-socials">
+              <div class="order-socialsItem">
+                <img src="assets/images/order-free/tg.png" alt="telegram">
+                <span>@helloitrum</span>
+              </div>
+              <div class="order-socialsItem">
+                <img src="assets/images/order-free/wa.png" alt="whatsapp">
+                <span>@helloitrum</span>
+              </div>
+            </div>
+          </div>
+          <div class="order-freeMenu">
+            <form class="order-freeMenuForm">
+              <div class="order-form1 order-form">
+                <input placeholder="Имя*" class="order-form1Name" type="text">
+                <input placeholder="Телефон" class="order-form1Number" type="text">
+              </div>
+              <div class="order-form2 order-form">
+                <input placeholder="Электронная почта*" type="text" class="order-form2Email">
+              </div>
+              <div class="order-form3 order-form">
+                <textarea placeholder="О проекте" type="text" class="order-form3About"></textarea>
+              </div>
+            </form>
+            <div class="order-freeMenuTags menuTags">
+              <h1 class="menuTagsTitle">Меня интересует</h1>
+              <div class="menuTagsItems">
+                <div class="menuTagsItem">
+                  CRM
+                </div>
+                <div class="menuTagsItem">
+                  Мобильное приложение
+                </div>
+                <div class="menuTagsItem">
+                  Сайт
+                </div>
+                <div class="menuTagsItem">
+                  Интернет-магазин
+                </div>
+                <div class="menuTagsItem">
+                  Редизайн
+                </div>
+                <div class="menuTagsItem">
+                  UI/UX дизайн
+                </div>
+                <div class="menuTagsItem">
+                  MVP
+                </div>
+                <div class="menuTagsItem">
+                  Расширение команды
+                </div>
+                <div class="menuTagsItem">
+                  Другое
+                </div>
+              </div>
+            </div>
+            <div class="order-freeMenuAttach attach">
+              <div class="attachPicture">
+                <img src="assets/images/order-free/attach.png" alt="attach">
+              </div>
+              <div class="attachText">
+                Прикрепите документы
+              </div>
+            </div>
+            <div class="order-freeMenuButton order-button">
+              <div class="order-buttonButton">
+                <button>Отправить</button>
+              </div>
+              <div class="order-buttonText">
+                Отправкой этого сообщения вы подтверждаете прочтение и согласие с <a href="">Политикой конфиденциальности</a> 
+              </div>
+            </div>
+            <div class="order-socialsBottom">
+              <div class="order-socialsItem">
+                <img src="assets/images/order-free/tg.png" alt="telegram">
+                <span>@helloitrum</span>
+              </div>
+              <div class="order-socialsItem">
+                <img src="assets/images/order-free/wa.png" alt="whatsapp">
+                <span>@helloitrum</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
     </main>
     <footer class="footer">
-      footer will be here
+      <div class="footerContainer">
+        <div class="footerCopyright">
+          <div class="footerCopyrightLogo">
+            <img src="assets/images/footer/logo.svg" alt="itrum">
+          </div>
+          <div class="footerCopyrightYear">
+            ©ИТРУМ 2022
+          </div>
+          <div class="footerCopyrightSafe">
+            Все права защищены
+          </div>
+          <div class="footerCopyrightPrivate">
+            Политика конфиденциальности
+          </div>
+        </div>
+        <div class="footerContacts">
+          <div class="footerContactsNumber">
+            +7 (932) 234-51-23
+          </div>
+          <div class="footerContactsEmail">
+            hello@exceed-team.com
+          </div>
+          <div class="footerContactsSocials footerSocials">
+            <div class="footerSocial">
+              <img src="assets/images/footer/social1.svg" alt="">
+            </div>
+            <div class="footerSocial">
+              <img src="assets/images/footer/social2.svg" alt="">
+            </div>
+            <div class="footerSocial">
+              <img src="assets/images/footer/social3.svg" alt="">
+            </div>
+            <div class="footerSocial">
+              <img src="assets/images/footer/social4.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
   </div>
   <script src="scripts/burger-menu.js"></script>
