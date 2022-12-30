@@ -1,7 +1,6 @@
 .mainFree-advice {
   margin-bottom: 144px;
 }
-.free-advice {}
 .free-adviceShort-container {
   background: #242424;
   border-radius: 24px;
@@ -9,8 +8,6 @@
   overflow: hidden;
   max-height: 376px;
   position: relative;
-}
-.free-adviceTitle-block {
 }
 .free-adviceTitle h1 {
   font-family: 'Gilroy';
@@ -22,8 +19,6 @@
 }
 .free-adviceTitle {
   margin-bottom: 32px;
-}
-.free-adviceButton {
 }
 .free-adviceButton button {
   font-family: 'Gilroy';

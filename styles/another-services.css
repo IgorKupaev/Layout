@@ -38,7 +38,7 @@
   display: flex;
   flex-direction: column;
 }
-.another-item__title {
+.another-itemTitle {
   font-family: 'Gilroy';
   font-weight: 600;
   font-size: 32px;
@@ -47,7 +47,7 @@
   position: relative;
   z-index: 1;
 }
-.another-item__title {
+.another-itemTitle {
   margin-bottom: 8px;
 }
 .another-itemDescription {
@@ -90,7 +90,7 @@
   .another-servicesColumn:not(:last-child) {
     margin-right: 16px;
   }
-  .another-item__title {
+  .another-itemTitle {
     font-weight: 600;
     font-size: 24px;
     line-height: 29px;
@@ -127,7 +127,7 @@
   .another-servicesTitle h1 {
     font-size: 24px;
   }
-  .another-item__title {
+  .another-itemTitle {
     font-size: 16px;
   }
   .another-itemDescription {

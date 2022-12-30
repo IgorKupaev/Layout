@@ -4,11 +4,11 @@
 .headerContainer {
   display: flex;
 }
-.headerLogo {}
 .header-logo {
   display: flex;
   align-items: center;
   flex: 0 1 42.387820513%;
+  cursor: pointer;
 }
 .header-logo img {
   height: 45.65px;
@@ -31,7 +31,6 @@
   font-size: 52px;
   margin-top: -15px;
 }
-.headerNav {}
 .header-nav {
   display: flex;
   align-items: center;

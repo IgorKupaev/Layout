@@ -33,11 +33,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 textarea::placeholder, input::placeholder {
 	font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 19px;
-    color: rgba(255, 255, 255, 0.5);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.5);
 	vertical-align: text-top;
 }
 html, body, main {
@@ -49,6 +49,14 @@ html, body, main {
 	font-weight: 400;
 	color: #ffffff;
   background: #161616;
+  
+}
+html::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: #9300FC;;
 }
 .wrapper {
 	overflow: hidden;
