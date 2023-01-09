@@ -96,6 +96,9 @@
   .tech-servicesList {
       padding-left: 2.5%;
   }
+  .mainTech-services {
+    margin-bottom: 120px;
+  }
 }
 @media (max-width: 1024px) {
   .tech-servicesSupport {
@@ -174,6 +177,9 @@
   .tech-servicesItem {
     padding-left: 48px;
   }
+  .mainTech-services {
+    margin-bottom: 96px;
+  }
 }
 @media (max-width: 710px) {
   .tech-servicesTitle h1 {
@@ -217,5 +223,8 @@
       position: absolute;
       top: 0;
       left: 0;
+  }
+  .mainTech-services {
+    margin-bottom: 64px;
   }
 }
