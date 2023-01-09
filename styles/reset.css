@@ -54,9 +54,11 @@ html, body, main {
 html::-webkit-scrollbar {
   width: 10px;
   background-color: transparent;
+ 
 }
 html::-webkit-scrollbar-thumb {
-  background-color: #9300FC;;
+  background-color: #9300FC;
+  border-radius: 20px;
 }
 .wrapper {
 	overflow: hidden;
